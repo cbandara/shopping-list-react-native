@@ -19,7 +19,7 @@ const App = () => {
     });
   }
 
-  const addItem = (item) => {
+  const addItem = (text) => {
     setItems(prevItems => {
       return [{ id: '3eddkdffkd', text }, ...prevItems];
     })
